@@ -7,12 +7,12 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword(chosenLength, lowercase, uppercase, numbers, special) {
   // initializing variables
-  var lowerLetters = "abcdefghijklmnopqrstuvwxyz"; // lower letters
-  var upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // upper letters
-  var numberSelection = "0123456789"; // numbers
-  var specialCharacters = " !\"#$ %& '()*+,-./:;<=>?@[\\]^_`{|}~"; // special characters
-  var combined = ""; // holds the desired characters
-  var generatedPassword; //  Generated password
+  let lowerLetters = "abcdefghijklmnopqrstuvwxyz"; // lower letters
+  let upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // upper letters
+  let numberSelection = "0123456789"; // numbers
+  let specialCharacters = " !\"#$ %& '()*+,-./:;<=>?@[\\]^_`{|}~"; // special characters
+  let combined = ""; // holds the desired characters
+  let generatedPassword; //  Generated password
 
   // if statements to build the combined characters
   if (lowercase) {
